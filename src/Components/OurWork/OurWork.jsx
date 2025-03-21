@@ -12,7 +12,7 @@ const OurWork = () => {
 
       {/* Second & Third Sections: Quote, Image, and Vertical Text */}
       {images.map((image, index) => (
-        <div key={index} className="flex flex-col md:flex-row h-screen items-center justify-center ">
+        <div key={index} className="flex  flex-col md:flex-row h-screen items-center justify-center ">
           {/* Left Column: Quote & Image */}
           <div className="md:w-2/3 flex flex-col items-center text-center md:text-left px-6">
             <h2 className="text-2xl font-bold">“A CAMERA IS A SAVE BUTTON FOR THE MIND’S EYE.”</h2>
