@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+
+/* Import Flowbite styles here */
+@import 'flowbite';
+
+@tailwind utilities;
+
+/* Custom styles (e.g., with @apply) should go after @tailwind directives */
+.row {
+  @apply flex flex-wrap;
+}
